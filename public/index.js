@@ -10,8 +10,8 @@ async function main() {
     let result = await response.json()
     console.log(result)
 
-    // IMPORTANT: CHANGE = mockdata TO = result WHEN FINISHED
-    const {GME, MSFT, DIS, BNTX} = result
+    // IMPORTANT: CHANGE = mockData TO = result WHEN FINISHED
+    const {GME, MSFT, DIS, BNTX} = mockData
     const stocks = [GME, MSFT, DIS, BNTX]
     console.log(stocks)
     
